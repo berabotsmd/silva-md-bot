@@ -6,14 +6,14 @@ import fs from 'fs'
 
 //OwnerShip
 global.owner = [
-  [process.env.OWNER_NUMBER || '254743706010', process.env.OWNER_NAME || '𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓', true],
-  ['254700143167', '𝐒𝐈𝐋𝐕𝐀 𝐌𝐃', true]
+  [process.env.OWNER_NUMBER || '254743982206', process.env.OWNER_NAME || 'ALPHA-MD', true],
+  ['254743982206', 'ALPHA-𝐌𝐃', true]
 ]
 global.mods = []
 global.prems = []
 
-global.author = process.env.OWNER_NAME || '𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓'
-global.botname = process.env.BOT_NAME || '𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓'
+global.author = process.env.OWNER_NAME || 'ALPHA-𝐌𝐃'
+global.botname = process.env.BOT_NAME || 'ALPHA-𝐌𝐃'
 global.oname = author
 global.bname = botname
 
@@ -26,15 +26,15 @@ global.chlink = process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029Va
 global.shizokeys = 'shizo'
 
 //Sticker Watermarks
-global.packname = process.env.BOT_NAME || '𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓'
-global.stkpack = process.env.BOT_NAME || '𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓'
-global.stkowner = process.env.OWNER_NAME || '© 𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓'
+global.packname = process.env.BOT_NAME || 'ALPHA-𝐌𝐃'
+global.stkpack = process.env.BOT_NAME || 'ALPHA-𝐌𝐃'
+global.stkowner = process.env.OWNER_NAME || '© ALPHA-𝐌𝐃'
 
 //Watermark
-global.maker = process.env.MAKER || 'Made with 𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓'
+global.maker = process.env.MAKER || 'Made with ALPHA-𝐌𝐃'
 
 //global emojis
-global.wait = '*⌛ _𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓..._*\n*▰▰▰▱▱▱▱▱*'
+global.wait = '*⌛ _ALPHA-𝐌𝐃..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
@@ -43,7 +43,7 @@ global.xmoji = '🔥'
 
 //management
 global.bug = '*!! Sorry 💢 !!*\nSomething went wrong 🌋'
-global.stop = '*!! 🎭 Unfortunately 𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓💔 !!*\nBot system is not Responding 🙃'
+global.stop = '*!! 🎭 Unfortunately ALPHA-𝐌𝐃💔 !!*\nBot system is not Responding 🙃'
 
 //TimeLines
 global.botdate = `*⫹⫺ Date:*  ${moment.tz('Africa/Nairobi').format('DD/MM/YY')}`
